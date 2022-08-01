@@ -16,4 +16,8 @@
 
 
 References:
+
 https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro
+
+https://github.com/dotnet/maui/issues/3888
+
