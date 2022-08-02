@@ -1,5 +1,5 @@
 # DotNetGuiApp
-## .Net Maui Gui App
+## Cross Platform .Net Maui Gui App
 
 
 ### Windows:
