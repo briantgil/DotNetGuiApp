@@ -19,9 +19,9 @@
 
 ### MacOS:
   1. Setup:
-      1. Go to `Xcode > Preferences > Locations > Command Line Tools` and set the blank drop down to something other than blank. Restart your Visual Studio (or VSCode).
-      2. Fixes: `/usr/local/share/dotnet/packs/Microsoft.MacCatalyst.Sdk/15.4.442/tools/msbuild/iOS/Xamarin.Shared.targets(3,3): Error: Could not find a valid Xcode app bundle at '/Library/Developer/CommandLineTools'. Please update your Apple SDK location in Visual Studio's preferences (Projects > SDK Locations > Apple > Apple SDK).`
-  2. XAML Hot Reload worked, but .NET Hot Reload (for C#) did not work since there was no "apply code changes" (ALT-F10) button in Visual Studio toolbar, may be able to use CLI: `dotnet watch`
+      1. Go to: Xcode > Preferences > Locations > Command Line Tools and set the blank drop down to something other than blank. Restart your Visual Studio (or VSCode).
+      2. Fixes: /usr/local/share/dotnet/packs/Microsoft.MacCatalyst.Sdk/15.4.442/tools/msbuild/iOS/Xamarin.Shared.targets(3,3): Error: Could not find a valid Xcode app bundle at '/Library/Developer/CommandLineTools'. Please update your Apple SDK location in Visual Studio's preferences (Projects > SDK Locations > Apple > Apple SDK).
+  2. XAML Hot Reload worked, but .NET Hot Reload (for C#) did not work since there was no "apply code changes" (ALT-F10) button in Visual Studio toolbar, may be able to use CLI: dotnet watch
   3. Publish unsigned by cd'ing to project folder and run:
       - .app: `dotnet build -f:net6.0-maccatalyst -c:Release`
       - .pkg: `dotnet build -f:net6.0-maccatalyst -c:Release /p:CreatePackage=true`
@@ -33,9 +33,9 @@
 
   
 ## References:
-[.NET MAUI Tutorial - Build your first multi-platform app in C#](https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro)
-[Error : Could not find a valid Xcode app bundle at '/Library/Developer/CommandLineTools' #3888](https://github.com/dotnet/maui/issues/3888)
-[Introducing the .NET Hot Reload experience for editing code at runtime](https://devblogs.microsoft.com/dotnet/introducing-net-hot-reload/)
-[Publish a .NET MAUI app for macOS](https://docs.microsoft.com/en-us/dotnet/maui/macos/deployment/overview)
-[Open a Mac app from an unidentified developer](https://support.apple.com/en-gb/guide/mac-help/mh40616/mac)
+1. [.NET MAUI Tutorial - Build your first multi-platform app in C#](https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro)
+2. [Error : Could not find a valid Xcode app bundle at '/Library/Developer/CommandLineTools' #3888](https://github.com/dotnet/maui/issues/3888)
+3. [Introducing the .NET Hot Reload experience for editing code at runtime](https://devblogs.microsoft.com/dotnet/introducing-net-hot-reload/)
+4. [Publish a .NET MAUI app for macOS](https://docs.microsoft.com/en-us/dotnet/maui/macos/deployment/overview)
+5. [Open a Mac app from an unidentified developer](https://support.apple.com/en-gb/guide/mac-help/mh40616/mac)
 
