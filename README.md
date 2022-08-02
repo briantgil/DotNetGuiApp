@@ -11,7 +11,7 @@
   2. Both XAML Hot Reload and .NET Hot Reload (for C#) worked
   3. Publish signed MSIX by cd'ing to project folder:
      1. create certificate
-     2. add thumbprint xml template to project file
+     2. add thumbprint xml template to project (.csproj) file
      3. run: `dotnet publish -f net6.0-windows10.0.19041.0 -c Release`
      4. install app
      5. currently, the published app doesn't work if you try to run it directly with the executable file out of the publish folder.
