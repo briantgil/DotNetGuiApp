@@ -7,6 +7,7 @@
      1.  Turn on the toggle under Developer Mode.
      2.  The Use developer features dialog is displayed. Select Yes to confirm that you want to enable the developer mode.
      3.  Close the Settings app, and then close the Enable Developer Mode for Windows dialog. The app should start running.
+  2. Both XAML Hot Reload and .NET Hot Reload (for C#) worked
 
 
 - For MacOS:
