@@ -15,7 +15,6 @@ Cross Platform .Net Maui Gui App
      4. install app
      5. currently, the published app doesn't work if you try to run it directly with the executable file out of the publish folder.
 
-
 ## MacOS:
   1. Setup:
       1. Go to: Xcode > Preferences > Locations > Command Line Tools and set the blank drop down to something other than blank. Restart your Visual Studio (or VSCode).
@@ -25,12 +24,10 @@ Cross Platform .Net Maui Gui App
       - .app: `dotnet build -f:net6.0-maccatalyst -c:Release`
       - .pkg: `dotnet build -f:net6.0-maccatalyst -c:Release /p:CreatePackage=true`
 
-  
 ## Modified:
   1. MainPage.xaml
   2. MainPage.xaml.cs
 
-  
 ## References:
 1. [.NET MAUI Tutorial - Build your first multi-platform app in C#](https://dotnet.microsoft.com/en-us/learn/maui/first-app-tutorial/intro)
 2. [Error : Could not find a valid Xcode app bundle at '/Library/Developer/CommandLineTools' #3888](https://github.com/dotnet/maui/issues/3888)
