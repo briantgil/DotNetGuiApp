@@ -24,7 +24,7 @@
   2. XAML Hot Reload worked, but .NET Hot Reload (for C#) did not work since there was no "apply code changes" (ALT-F10) button in Visual Studio toolbar, may be able to use CLI: dotnet watch
   3. Publish unsigned by cd'ing to project folder and run:
       - .app: `dotnet build -f:net6.0-maccatalyst -c:Release`
-      - .pkg: `dotnet build -f:net6.0-maccatalyst -c:Release /p:CreatePackage=true`
+      - .pkg: `dotnet build -f:net6.0-maccatalyst -c:Release -p:CreatePackage=true`
 
   
 ## Modified:
